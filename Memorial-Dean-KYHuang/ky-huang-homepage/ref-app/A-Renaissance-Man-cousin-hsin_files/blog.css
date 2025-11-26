@@ -1,0 +1,402 @@
+/*---------------------------------------------------
+CSS by sunnic
+http://www.wretch.cc/blog/sunnic
+---------------------------------------------*/
+
+HTML {
+	scrollbar-face-color: #ffffff;
+	scrollbar-base-color: #ffffff;
+	scrollbar-shadow-color: #ffffff;
+	scrollbar-3dlight-color: #ED789C;
+	scrollbar-arrow-color: #ED789C;
+	scrollbar-darkshadow-color: #ED789C;
+	scrollbar-track-color: #FFCFDD;
+	scrollbar-highlight-color: #FFCFDD;
+}
+
+/*整體版面*/
+body	{
+	color: #666;
+	font-size: 13px;
+	font-weight: normal;
+	font-family: Georgia, arial, helvetica, sans-serif;
+	line-height: 190%;
+	height: 100%;
+	margin: 0px;
+}
+
+#blog_main, #container1, #container2, #pageheader	{
+	margin: 0px auto;
+	padding-top:0px;
+	width: 100%;
+	text-align: left;
+}
+
+a	 { color: #85B67F; text-decoration: underline}
+a:link, a:hover, a:visited{	text-decoration: underline}
+a:active  {text-decoration: none}
+
+img{border:#ccc}
+
+p {
+	font-size: 15px;
+	line-height:190%;
+	color: #666;
+}
+
+h2,	h3 {
+	padding: 0px;
+	margin: 0px;
+}
+
+/*大標區塊************************************************/
+#banner	{
+	height: 280px;
+	margin: 0px;
+	padding:0px;
+	background-color: #fff;
+	background-image: url(http://l.yimg.com/e/style/4/443/banner01.jpg);
+	background-repeat : no-repeat;
+	background-position : 0% 0%;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 20px;
+	padding:70px 0px 20px 540px;
+	margin-top: 0px;
+	letter-spacing: 4px;
+}
+
+#description2{
+	padding-left: 540px;
+	width:390px;
+	letter-spacing: 1px;
+}
+
+.description {
+	font-weight: normal;
+	font-size: 13px;
+	color: #85B67F;
+	letter-spacing: 2px;
+}
+
+h1 .description {	display:none;}
+
+/*大標區塊：連結 */
+#banner	a {color: #ED789C; text-decoration: none	}
+#banner	a:link, #banner	a:active, #banner	a:visited {color: #ED789C; text-decoration: none}
+#banner	a:hover   {color: #ED789C; text-decoration: none}
+
+#description2 a {color: #ED789C; text-decoration: none}
+#description2 a:link, #description2 a:active, #description2 a:visited {color: #ED789C; text-decoration: none}
+#description2 a:hover   {color: #ED789C; text-decoration: underline}
+
+
+/*文章區塊***********************************************/
+#content {
+	float: right;
+	width: 630px;
+	margin: 10px 20px 0px 0px;
+}
+
+.blog {
+	margin-top: 10px;
+	float: right;
+	background-image: url(http://l.yimg.com/e/style/4/443/bg-dot10.gif);
+	background-repeat : repeat-x repeat-y;
+	background-position : 0% 0%;
+}
+
+.blogbody {
+	margin-bottom: 20px;
+	font-size: 12px;
+	color: #000;
+	font-family: arial, helvetica, sans-serif;
+	line-height: 190%;
+}
+
+/*文章區塊：內文*/
+.innertext {
+	font-family:Georgia;
+	font-size:15px;
+	line-height:190%;
+	color: #666;
+}
+
+.articletext {
+	font-family:Georgia;
+	font-size:15px;
+	line-height:190%;
+	color: #666;
+}
+
+/*文章區塊：標題*/
+.title {
+	width:100%;
+	margin: 15px 0px 35px 0px;
+	padding: 0px;
+	font-weight: bold;
+	font-size: 15px;
+	text-align:left;
+	color: #ED789C;
+}
+
+.date {
+	font-weight: normal;
+	font-size: 13px;
+	text-align:right;
+	color: #85B67F;
+	border-top: #ccc 1px solid;
+	padding:5px 15px 15px 15px;
+	width:98%;
+}
+
+/*繼續閱讀*/
+.extended {
+	width:100%;
+	float:right;
+	text-align:right;
+}
+
+.posted	{
+	font-family:Georgia;
+	text-align:right;
+}
+
+/*文章區塊：回應*/
+.comments-head {
+	padding-top: 20px;
+	font-weight: bold;
+	font-size: 16px;
+	color: #85B67F;
+	height: 10px;
+	text-align: center;
+}
+
+.comments-body {
+	padding-top: 20px;
+	font-size: 15px;
+	margin: 20px 0px 15px 13px;
+	line-height: 170%;
+	border-top: #ccc 1px dotted;
+}
+.comments-post {
+	font-size: 13px;
+	margin: 0px 0px 25px;
+	color: #ED789C;
+	text-align: right;
+}
+
+/* 編寫回應欄 */
+.total-comments-div	.comments-body form {
+	padding: 20px;
+	border: #ccc 0px solid;
+}
+
+.comments-body textarea{
+	width:600px;
+	height:300px;
+	background: url(http://l.yimg.com/e/style/4/443/table02.jpg) top right;
+	background-repeat : no-repeat;
+	border: #ccc 1px solid;
+}
+
+.comments-body input{
+	border: #ccc 1px solid;
+	background:#fff;
+}
+
+.comments-body textarea{
+	border: #E6E3FF 1px dotted;
+}
+
+.comments-body input{
+	border: 0px;
+	background:#fff;
+	border-bottom: #ccc 1px dotted;
+}
+
+.trackback-url {
+	padding:50px 0px 50px 10px;
+	color: #fff;
+	font-size:15px;
+	text-align:right;
+}
+
+.trackback-url input{
+	font-size:15px;
+	color: #85b67f;
+	border:0px;
+	background:#FFE7EE;
+	height:20px;
+	width:75%;
+	margin:3px;
+}
+
+/*側欄區塊 **********************************************/
+#links {
+	float: left;
+	width: 200px;
+	text-align: center;
+	margin: 20px 0px 0px 20px;
+	background-color: #fff;
+}
+
+/*側欄區塊：小標 */
+.sidetitle {
+	padding-bottom: 10px;
+	font-weight: bold;
+	font-size: 15px;
+	color: #85B67F;
+	letter-spacing: 0px;
+	background:#fff;
+	border: #ccc 0px double;
+	margin:0px 1px;
+	text-align: left;
+}
+
+/*側欄區塊：欄內文字*/
+.side {
+	padding: 5px;
+	font-size: 13px;
+	margin: 0px 0px 10px;
+	line-height: 180%;
+	text-align: left
+}
+
+#links .side a {
+	text-decoration:none;
+	line-height: 210%;
+	font-size: 13px;
+	color: #666;
+}
+#links .side a:hover {
+	color:#A6546B;
+	background:#FFE0E9
+}
+
+
+/*資料夾**********************************************/
+
+/*文章分類*/
+#boxCategory .side br {display:none;}
+#boxCategory .side a { font-size: 13px; display:block; line-height: 210%; text-decoration:none;}
+#boxCategory .boxCategory1 .side br {display:none;}
+#boxCategory .boxCategory1 .side a { font-size: 13px; display:block; line-height: 210%; text-decoration:none;}
+
+/*其它資料夾*/
+#boxFolder .side br {display:none;}
+#boxFolder .side a{ font-size: 13px; display:block; line-height: 210%; text-decoration:none;}
+
+#boxFolder .side input {
+	border:none;
+	margin:5px;
+	height:20px;
+	width:160px;
+	font-size:13px;
+	background:#FFE7EE;
+	color:#ED789C;
+}
+
+/*最新文章*/
+#boxNewArticle .side br {display:none;}
+#boxNewArticle .side a{ font-size: 13px; display:block; line-height: 210%; text-decoration:none;}
+
+/*最新回應*/
+#boxNewComment .side { font-size: 11px; line-height: 210%; color:#666;}
+
+/*最新引用*/
+#boxNewTrackback { word-wrap:break-word;}
+#boxNewTrackback .side { font-size: 13px; line-height: 250%; color:#fff; }
+#boxNewTrackback .side a{ font-size: 13px; text-decoration:none;}
+#boxNewTrackback .side a:hover { color:#A6546B; background:#FFE0E9}
+
+/*我的訂閱*/
+#boxRssList .boxRssList0, .boxRssList1 .side {
+	font-size: 0px;
+	line-height:1%;
+	color:#fff;
+}
+#boxRssList .side br {display:none;}
+#boxRssList .side a{
+	font-size: 13px;
+	display:block;
+	line-height: 210%;
+	text-decoration:none;
+	padding-bottom:3px;
+	border-bottom:#ccc solid 1px;
+}
+
+#boxRssList .sidetitle {padding: 17px 0px 17px 5px; }
+#boxRssEntryTitle {color:#ED789C; font-size: 13px;line-height:210%;}
+
+
+/*隱藏文章彙集與搜尋引擎*/
+#boxDate {display:none}
+#boxSearch {display:none}
+#scupioSearch {display:none}
+.syndicate {display:none;}
+
+/*行事曆*/
+.calendar a {color:#fff;}
+.calendar tr th .calendar{font-size:11px; color:#85B67F}
+.calendar td a { font-size:11px;color:#ED789C;text-decoration:none}
+.calendar td a:hover{text-decoration:}
+.calendarhead a {font-size:11px;color:#ED789C;text-decoration:none;}
+.calendar{margin-bottom:30px}
+.calendar span{color:#A6ADAD}
+
+/*我的地盤 */
+.boxProfile0 .sidetitle, #boxProfile .boxProfile1 .side .boxProfileImg {display:none;}
+.boxProfile1 .side {color#fff;}
+#boxProfile .side br {display:none;}
+#boxProfile .side a{ font-size: 13px; display:block; line-height: 220%; text-decoration:none;}
+.boxAddFriendLink, .boxGiftLink {display:none}
+
+
+/*好友連結 */
+#boxProfile	.boxProfile1 .side select {
+	width:160px;
+	border:#ccc 1px solid;
+	background:#FFE7EE;
+	color:#ED789C;
+	margin-top:20px;
+}
+
+/*參觀人氣統計*/
+#boxCounter	.boxCounter1 .side {color:#ED789C;}
+
+/*調整power帳號登入*/
+.powered {color:#fff;}
+.powered a{color:#fff;}
+.powered a:hover {color:#ccc;}
+.powered img {display:none}
+
+/*其它 */
+.powered input {
+	border:none;
+	margin-top:10px;
+	margin-bottom:0px;
+	height:15px;
+	font-size:12px;
+	margin:1px;
+	background:#FFE7EE;
+	color:#ED789C;
+}
+
+/*!!!!!!! 如欲移除地盤區域，請刪除這行 !!!!!!!!!!!!!!!!!
+
+#links .boxProfile1, #links .boxProfile1 .side, #links .boxProfile1 .boxProfileLink, .boxProfile1 a, #links .boxProfile1 .side a  {
+	font-size: 0px;
+	line-height:1%;
+	color:#fff;
+}
+
+.boxProfile0 .sidetitle, #boxProfile	.boxProfile1 .side .boxProfileImg {display:none;}
+
+!!!!!!!!!  如欲移除地盤區域，這行也要刪除（這樣就可以了，不必動到兩行之間的碼）!!!!!!!!!!*/
+
+
+
+
