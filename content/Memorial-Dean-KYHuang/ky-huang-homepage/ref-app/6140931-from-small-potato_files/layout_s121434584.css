@@ -1,0 +1,362 @@
+//* ----------【背景大底圖】-------------- */
+body {
+	TEXT-ALIGN: center !important;/* 居中 */
+	background-image: url(http://img524.imageshack.us/img524/9567/style59bigbg.jpg);/* 背景圖 */
+	background-color: #CFCAC4!important;/* 背景色 */
+	background-attachment: fixed;
+	background-repeat: repeat-x;/* 背景是否重複 */
+	background-position: center top;/* 背景位置 */
+}
+#container {
+	MARGIN: auto !important;
+	background-image: url()!important;/* 背景圖 */
+	background-repeat: repeat-y;
+}
+
+/* ----------【標準文字樣式】-------------- */
+div, table {
+	COLOR: #333333; /* 文字顏色 */
+	font-size: 12px; /* 文字大小 */
+}
+
+/* ----------【山頭區塊】-------------- */
+#header {
+	height: 120px; /* 高度 */
+	margin-bottom: 10px; /* 山頭的邊界 */
+	position: relative;/* 絕對定位(以"山頭區塊"左上角為基準點) */
+	width: auto;/* 寬度 */
+	visibility: visible !important;/* 是否顯示 */
+	background: url() repeat-x;/* 背景圖 */
+	background-color: #!important;
+}
+
+/* ----------【山頭】頂線-------------- */
+#header_top {
+	position: absolute; /* 絕對定位(以"山頭區塊"左上角為基準點) */
+	height: 2px; /* 線條高度 */
+	background: #114091; /* 線條背景顏色 */
+	display: none;/* 顯示與否設定 */
+}
+
+/* ----------【城邦共用導覽列】-------------- */
+#header_top, #header_common_left, #header_common_main, #header_common_main_bg, #header_common_line, #header_common_right{
+	visibility: hidden; /* 顯示與否設定 */
+}
+
+/* ----------【城邦共用導覽列】連結-------------- */
+#header_common a {
+	color: #606060; /* 連結文字的顏色  */
+	text-decoration: none; /* 滑鼠移到連結上時，不要底線 */
+}
+
+/* ----------【城邦共用導覽列】下拉選單-------------- */
+.chapter {
+	width: 100%; /* 寬度 */
+	border: 1px solid #B3CCE6; /* 線框背景色 */
+	background-color: #EBF2F8; /* 背景色 */
+}
+.chapter-point {
+	color: #4D4D4D; /* 前綴點顏色 */
+}
+.chapter-line {
+	background-color: #D8E5F2; /* 分隔線顏色 */
+}
+
+/* ----------【城邦共用導覽列】下拉選單連結-------------- */
+.chapter-text, a.chapter-text:link, a.chapter-text:hover, a.chapter-text:visited {
+	color: #274D74; /* 連結文字的顏色 */
+}
+
+
+/* ----------【山頭】連結-------------- */
+#header a:link, #header a:visited  {
+	text-decoration: none;  /* 連結文字的樣式 */
+}
+#header a:hover {
+	text-decoration: underline;  /* 滑鼠移到上面時的連結文字樣式 */
+}
+
+/* ----------【山頭】網誌logo定位-------------- */
+#header_logo {
+	position: absolute; /* 絕對定位(以"山頭區塊"左上角為基準點) */
+	left: 451px; /* x座標 */
+	top: 170px; /* y座標 */
+	visibility: hidden; /* 顯示與否設定 */
+}
+
+/* ----------【山頭】網誌名稱-------------- */
+#header_name {
+	position: absolute; /* 絕對定位(以"山頭區塊"左上角為基準點) */
+	left: 15px; /* x座標 */
+	top: 4px; /* y座標 */
+	color: #1C5069; /* 文字顏色 */
+	font-size: 26px; /* 文字大小 */
+	font-weight: bold; /* 文字粗體 */
+	text-align: left;
+}
+/* ----------【山頭】網誌名稱連結-------------- */
+#header_name a {
+	color: #1C0069;  /* 連結文字的顏色 */
+}
+
+/* ----------【山頭】網誌簡短網址與作家-------------- */
+#header_url {
+	position: absolute; /* 絕對定位(以"山頭區塊"左上角為基準點) */
+	left: 60px; /* x座標 */
+	top: 55px; /* y座標 */
+	text-align: left;/* 置左 */
+	width: 353px;/* 寬度 */
+}
+
+/* ----------【山頭】網誌簡短網址與作家連結-------------- */
+#header_url a:link, a:visited {
+	color: #06107E; /* 連結文字的顏色 */
+}
+#header_url a:hover {
+	color: ##FE051A; /* 滑鼠移到上面時的連結文字顏色 */
+	text-decoration: underline;/* 滑鼠移到上面時的出現底線 */
+}
+
+
+/* ----------【山頭】加入好友、推薦本網誌等...功能列-------------- */
+#header_items {
+	position: absolute; /* 絕對定位(以"山頭區塊"左上角為基準點) */
+	left: 375px; /* x座標 */
+	top: 55px; /* y座標 */
+}
+
+/* ----------【山頭】加入好友、推薦本網誌等...功能列連結-------------- */
+#header_items a {
+	color: #06107E; /* 連結文字的顏色 */
+}
+#header_items a:hover {
+	color: ##FE051A; /* 滑鼠移到上面時的連結文字顏色 */
+	text-decoration: underline;/* 滑鼠移到上面時的出現底線 */
+}
+
+/* ----------【山頭】搜尋區塊-------------- */
+#header_search {
+	position: absolute; /* 絕對定位(以"山頭區塊"左上角為基準點) */
+	left: 245px; /* x座標 */
+	top: 12px; /* y座標 */
+}
+.inputbox { /* 文字輸入框 */
+	BORDER-RIGHT: #808080 1px solid;
+	BORDER-TOP: #808080 1px solid;
+	BORDER-LEFT: #808080 1px solid;
+	BORDER-BOTTOM: #808080 1px solid;
+}
+
+#kwd {
+	width: 110px;
+	filter: Alpha(Opacity=50);
+	border: 1px solid #666636;
+}
+
+
+/* ----------【網誌橫式主選單】-------------- */
+/* 網誌橫式主選單的頂線 */
+#header_menus_line {
+	position: absolute; /* 絕對定位(以"山頭區塊"左上角為基準點) */
+	border-top: 0px solid #4180C0; /* 線的高度與顏色樣式 */
+	left: 0px; /* x座標 */
+	top: 200px; /* y座標 */
+	width: 100%; /* 寬度 */
+	visibility: hidden; /* 顯示與否設定 */
+}
+/* 網誌橫式主選單的定位 */
+#header_menus {
+	position: absolute; /* 絕對定位(以"山頭區塊"左上角為基準點) */
+	left: 150px; /* x座標 */
+	top: 75px; /* y座標 */
+	margin-top: 10px; /* 與頂線的邊界間距 */
+}
+/* 網誌橫式主選單的區塊設定 */
+#header_menus ul {
+	list-style: none; /* 條列式樣式 */
+	margin: 0px; /* 邊界的間距 */
+	padding-left: 20px; /* 左側的內距 */
+}
+/* 網誌橫式主選單的項目設定 */
+#header_menus li {
+	display: inline; /* 橫式 */
+	height: 45px; /* 高度 */
+	padding-top: 10px; /* 上側的內距 */
+	padding-right: 5px; /* 右側的內距(小圖示與選項文字的間距調適) */
+	text-indent: 15px;
+	float: left;/* 靠左浮動 */
+	position: relative;/* 相對定位(以"山頭區塊"左上角為基準點) */
+}
+/* ----------【網誌橫式主選單】小圖示（欲更換小圖示，請修改url為圖檔所在地的絕對連結）-------------- */
+#home , #article , #photo , #gbook , #profile , #manage {
+	background: url() no-repeat left 3px;
+	display: block;
+}
+
+/* ----------【網誌橫式主選單】連結-------------- */
+#header_menus li a {
+	color: #C3003A; /* 連結文字的顏色 */
+	font-size: 15px; /* 連結文字的大小 */
+	padding-left: 7px; /* 左測的內距 */
+	font-weight: bold; /* 文字粗體 */
+}
+#header_menus a:hover {
+	color: #FE051A; /* 滑鼠移到上面時的連結文字顏色 */
+}
+#kwd {
+	width: 110px;
+	filter: Alpha(Opacity=50);
+	border: 1px solid #666636;
+}
+
+
+/* --------------【直式導覽列】（如需更改浮動定位應與內容區塊配合）------------- */
+/* 直式導覽列區塊 */
+#sidebar {
+	float: left; /* 靠左浮動定位 */
+	left: px;
+	position: relative;
+	top: px;
+}
+/* 直式導覽列區塊居中 */
+#sidebar table {
+    position:relative !important;
+    margin: auto !important;
+}
+/* 直式導覽列大背景 */
+.sidebar-bg {
+	background-color: transparent; /* 背景色 */
+}
+/* 直式導覽列區塊背景 */
+.sidebar-panel-bg {
+	background-color: transparent; /* 背景色 */
+	background: url() no-repeat left top; /* 背景圖片 */
+}
+/* 直式導覽列文字 */
+.panel-topic 
+{
+	padding-left: 25px !important;/* 離左邊距離 */
+	color: #004887!important;/* 文字顏色 */
+	vertical-align: top;/* 垂直對齊 */
+}
+.panel-text 
+{
+    color: #210D04!important;/* 文字顏色 */
+} 
+
+/* -----------------【內容區】（如需更改浮動定位應與直式導覽列區塊配合）--------------------- */
+/* 內容區塊 */
+#content {
+	float: left; /* 靠左浮動定位 */
+}
+
+/* 對比色大標題 */
+#content .main-topic {
+	color: #672B1A; /* 文字顏色 */
+	font-weight: bold; /* 文字粗體 */
+}
+#content a.main-topic:link {
+	color: #0E6900; /* 連結文字的顏色 */
+	text-decoration: none; /* 連結文字的樣式 */
+	font-weight: bold; /* 連結文字粗體 */
+}
+#content a.main-topic:visited  {
+	color: #308080; /* 連結文字的顏色 */
+	text-decoration: none; /* 連結文字的樣式 */
+	font-weight: bold; /* 連結文字粗體 */
+}
+/* 深色大標題 */
+#content .main-title {
+	color: #44450D; /* 文字顏色 */
+}
+#content a.main-title:link, #content a.main-title:visited {
+	text-decoration: none; /* 連結文字的樣式 */
+}
+#content a.main-title:hover {
+	color: #000000;  /* 滑鼠移到上面時的連結文字顏色 */
+}
+/* 附標、內文 */
+#content .main-text {
+	color: #504050; /* 文字顏色 */
+}
+#content a.main-text:link, #content a.main-text:visited {
+	color: #37917C; /* 連結文字的顏色 */
+	text-decoration: none; /* 連結文字的樣式 */
+}
+#content a.main-text:hover {
+	color: #000000;  /* 滑鼠移到上面時的連結文字顏色 */
+}
+
+/* --------------【個人相簿】------------- */
+/* 相簿樣式 */
+.photo_album { 
+ width: 140px; /* 寬度 */
+ height: 140px; /* 高度 */
+ text-align: center;  /* 相片水平居中 */
+ vertical-align: middle;  /* 相片垂直居中 */
+ background: url(http://g.udn.com/community/img/user_all/photo_album.gif) no-repeat; /* 背景圖 */
+}
+#photo_album_list {
+ list-style: none; /* 條列式樣式：無 */
+ margin: 0px; /* 邊界的間距 */
+ padding: 0px; /* 內距 */
+}
+#photo_album_list li {
+ margin: auto;
+ padding: 5px 20px; /* 相框間距 */
+ display: inline; /* 橫式排列 */
+ float: left; /* 靠左浮動定位 */
+ width: 140px; /* 給標題折行用，須與相簿框一樣寬 */
+ height: 280px; /* 調適標題高度 */
+ table-layout:fixed; /* 強制換行 */
+ word-wrap:break-word; /* 強制換行 */
+ word-break:keep-all; /* 強制換行 */
+}
+/* 相片樣式 */
+.photo_picture { 
+ width: 140px; /* 寬度 */
+ height: 144px; /* 高度 */
+ text-align: center; /* 相片水平居中 */
+ vertical-align: middle; /* 相片垂直居中 */
+ background: url(http://g.udn.com/community/img/style140/sidebar.gif) no-repeat; /* 背景圖 */
+}
+#photo_picture_list {
+ list-style: none; /* 條列式樣式：無 */
+ margin: 0px; /* 邊界的間距 */
+ padding: 0px; /* 內距 */
+}
+#photo_picture_list li {
+ margin: auto; /* 邊界的間距 */
+ padding: 5px 3px; /* 相框間距 */
+ display: inline; /* 橫式排列 */
+ float: left; /* 靠左浮動定位 */
+ width: 140px; /* 給標題折行用，須與相片框一樣寬 */
+ height: 240px; /* 調適標題高度 */
+ table-layout:fixed; /* 強制換行 */
+ word-wrap:break-word; /* 強制換行 */
+ word-break:keep-all; /* 強制換行 */
+} 
+
+/* --------------【訪客簿】------------- */
+/* 回覆表頭區 */
+.gbook-title {
+	color:#6A5444; /* 文字顏色 */
+	background-color: #B3B3B3; /* 背景顏色 */
+	padding: 10px 10px 0px; /* 內距 */
+}
+/* 回覆內容區 */
+.gbook-content {
+	color: #948B39; /* 文字顏色 */
+	background-color: #FFFFFF; /* 背景顏色 */
+	padding: 5px 10px 5px; /* 內距 */
+	margin: 10px; /* 間距 */
+}
+/* 回覆區塊背景 */
+.gbook-bg {
+	background-color: #B3B3B3; /* 背景顏色 */
+}
+
+
+
+
+

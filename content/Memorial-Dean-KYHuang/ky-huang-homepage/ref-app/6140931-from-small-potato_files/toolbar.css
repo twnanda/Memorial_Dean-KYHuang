@@ -1,0 +1,265 @@
+@charset "big5";
+body {
+	padding: 0 0 30px;
+	margin: 0px;
+}
+
+#footerbar ,
+#footerbar_open
+{
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:30px;
+	margin: 0;
+	padding: 0;
+	z-index: 1000;
+}
+#footerbar {
+        background: url(http://g.udn.com/community/img/common_all_2007/btoolbar_footerbar.gif) repeat-x left top;
+}
+
+#footerbar_open {
+	text-align: center;
+	display: none;
+}
+#footerbar_open_center {
+	width:1000px;
+	margin: auto;
+}
+#footerbar_open_btn img {
+	float: right;
+}
+
+
+
+#tb_periphery {
+	width:1000px;
+	height:30px;
+	font: 12px/150% Arial, helvetica, clean, "新細明體", "PMingLiU", sans-serif;
+	color: #333;
+	margin: auto;
+}
+#tb_periphery a {
+	color: #444;
+	display: block;
+	float: left;
+	text-decoration: none;
+}
+#tb_periphery dl ,
+#tb_periphery dd
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+#tb_periphery a:hover {
+	background: url(http://g.udn.com/community/img/common_all_2007/btoolbar_footerbar_on.gif) repeat-x left top;
+	color: #000;
+}
+#tb_periphery dd a:hover {
+	background: #fff;
+	color: #000;
+}
+
+#tb_periphery_left {
+	float: left;
+}
+#tb_periphery_right {
+	float: right;
+}
+
+.dfm {
+	padding: 0px 5px;
+	cursor: default;
+}
+
+.box {
+	position: relative;
+	float: left;
+	line-height: 30px;
+	line-height: 38px \9;
+	_line-height: 30px;
+}
+
+#widgets img {
+	float: left;
+}
+#widgets span {
+	color: #555;
+	font-size: 11px;
+	line-height: 30px;
+	top: -1px \9;
+}
+#business {
+	padding: 0 5px 0 0;
+}
+#business img {
+	float: left;
+}
+#business span {
+	padding: 1px 5px;
+	background: #F5F5F5;
+	border: 1px solid #CCC;
+	color: #304985;
+	margin: 0px 5px 0px 0px;
+	top: 3px;
+	top: -1px \9;
+	_top: 0;
+	position: relative;
+}
+.alink {
+	padding: 0px 5px;
+}
+#tb_events {
+	height: 20px;
+	overflow: hidden;
+	width: 180px;
+	padding: 7px 5px 0;
+	padding: 10px 5px 0 \9;
+}
+#tb_events_info {
+	line-height: 20px;
+}
+#tb_events_info a:hover {
+	background: none;
+}
+
+
+
+.tb_interval {
+	height:30px;
+	float: left;
+	width: 1px;
+	display: block;
+	overflow: hidden;
+	background: url(http://g.udn.com/community/img/common_all_2007/btoolbar_interval.gif) no-repeat center top;
+}
+
+
+
+
+
+
+#sub_1 ,
+#sub_2 ,
+#sub_3 ,
+#sub_4 ,
+#sub_5 ,
+#sub_6 
+{
+	position: absolute;
+	left:0px;
+	background: url(http://g.udn.com/community/img/common_all_2007/btoolbar_qarrow.gif) no-repeat left bottom;
+	padding: 0px 0px 10px;
+	display: none;
+	z-index: 1000;	
+}
+
+#sub_1 {
+	top: -586px;
+	width: 535px;
+	height: 587px;
+	background-position: 21px bottom;
+}
+#sub_2 {
+	top: -299px;
+	width: 535px;
+	height: 300px;
+	background-position: 67px bottom;	
+}
+#sub_3 {
+	top: -210px;
+	width: 420px;
+	height: 210px;
+}
+#sub_4 {
+	top: -224px;
+	top: -215px \9;
+	_top: -215px;		
+	background-position: 115px bottom;
+	left: -115px;
+	width: 206px;
+}
+#sub_4 table {
+	border-left: 1px solid #aaa;
+	border-right: 1px solid #aaa;
+	background: #FFF;
+}
+#sub_4 th a {
+	color: #333;
+	background: #f6f4f4;
+	border-bottom: 1px dotted #aaa;
+}
+#sub_4 td {
+	border-bottom: 1px dotted #aaa;
+}
+#sub_5 {
+	top: -192px;
+	top: -180px \9;
+	width: 140px;
+	text-align:left;
+}
+.all #sub_5 {
+	top: -64px;
+	left: auto;
+	right: 0;
+	background-position: 128px bottom;
+}
+#sub_6 {
+	top: -192px;
+	top: -180px \9;
+	width: 140px;
+	left: -17px;
+	background-position: 17px bottom;
+	text-align:left;
+}
+
+#sub_4 ,
+#sub_5 ,
+#sub_6 
+{
+	border-top: 1px solid #aaa;
+}
+#sub_4 a {
+	padding: 1px 10px 0;
+	float: none;
+	overflow: hidden;
+	height: 30px;
+	background: #FFF;
+	color: #333;
+	text-align: center;
+	display: block;
+}
+#sub_4 a:hover {
+	background: #f6f4f4 none;
+}
+#sub_5 a ,
+#sub_6 a
+{
+	padding: 1px 10px 0;
+	float: none;
+	overflow: hidden;
+	height: 30px;
+	background: #f6f4f4;
+	color: #333;
+	border-left: 1px solid #aaa;
+	border-bottom: 1px dotted #aaa;
+	border-right: 1px solid #aaa;
+}
+#sub_4 .tdline {
+	border-bottom: 1px solid #aaa;
+}
+#sub_5 a.noline ,
+#sub_6 a.noline
+{
+	border-bottom: 1px solid #aaa;
+}
+
+
+
+
+
+
+* html #footerbar, * html #footerbar_open /* IE6底部固定*/{position:absolute;bottom:auto;top:expression(eval(document.body.scrollTop+document.body.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));}
