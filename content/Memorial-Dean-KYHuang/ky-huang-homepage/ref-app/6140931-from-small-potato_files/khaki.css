@@ -1,0 +1,894 @@
+@charset "big5";
+body {
+	margin: 0px;
+	padding: 0px;
+	SCROLLBAR-FACE-COLOR: #cccccc; 
+	SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; 
+	SCROLLBAR-SHADOW-COLOR: #999999; 
+	SCROLLBAR-3DLIGHT-COLOR: #999999; 
+	SCROLLBAR-ARROW-COLOR: #666666; 
+	SCROLLBAR-DARKSHADOW-COLOR: #ffffff; 
+	SCROLLBAR-BASE-COLOR: #999999;
+	SCROLLBAR-TRACK-COLOR: #E5E5E5;	
+}
+hr {
+	border: 1px dotted #666666;
+	height: 1px;
+}
+
+a { 
+	word-break:break-all;
+}
+
+.font-size10 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 150%;
+	text-decoration: none;
+	
+}
+.font-size11 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 150%;
+	text-decoration: none;
+	
+}
+.font-size12 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 150%;
+	text-decoration: none;
+	
+}
+.font-size13 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 150%;
+	text-decoration: none;
+	
+}
+.font-size15 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 150%;
+	text-decoration: none;
+	
+}
+.font-size19 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	line-height: 150%;
+	text-decoration: none;
+	
+}
+
+
+
+
+.no-nl {
+	table-layout:fixed;
+}
+.nav {
+	color: #666666;
+}
+.nav-01, .nav-02, .nav-03, .nav-04 {
+	color: #FFFFFF;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.nav-01 {
+	background-color: #D5CF91;
+}
+.nav-02 {
+	background-color: #C7BE6C;
+}
+.nav-03 {
+	background-color: #B9AE47;
+}
+.nav-04 {
+	background-color: #948B39;
+}
+.city-name {
+	color: #000000;
+	font-weight: bold;
+}
+.city-text {
+	color: #999999;
+}
+.menus-bg {
+	background-image: url(http://g.udn.com/community/img/city_black/menus_bg.gif);
+	color: #706A2B;
+	cursor: hand;
+}
+.menus-bg-over {
+	background-image: url(http://g.udn.com/community/img/city_black/menus_bg_over.gif);
+	color: #FFFFFF;
+	cursor: hand;
+}
+.menus-bg-na {
+	background-image: url(http://g.udn.com/community/img/city_black/menus_bg_na.gif);
+	color: #999999;
+}
+.menus-top {
+	background-color: #B9AE47;
+}
+.menus-top-left {
+	background-color: #B9AE47;
+	width: 5px;
+	height: 23px;
+}
+.menus-line {
+	background-color: #C7BE6C;
+}
+/*
+.menus {
+	color: #706A2B;
+	FILTER:progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#D9E6F2,endColorStr=#FFFFFF);
+}
+.menus-left {
+	color: #706A2B;
+	background-color: #F7F6EB;
+}
+.menus-over {
+	color: #FFFFFF;
+	FILTER:progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#5D5824,endColorStr=#DCD7A4);
+}
+.menus-over-left {
+	color: #FFFFFF;
+	background-color: #C7BE6C;
+}
+.menus-close {
+	color: #999999;
+	FILTER:progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#F2F2F2,endColorStr=#FFFFFF);
+}
+*/
+.panel-bg {
+	background-color: #F7F6EB;
+}
+.panel-line {
+	background-color: #C7BE6C;
+}
+.panel-topic {
+	font-weight: bold;
+	color: #706A2B;
+}
+.panel-text {
+	color: #948B39;
+	table-layout:fixed;
+}
+.main-topic {
+	color: #990808;
+	font-weight: bold;
+}
+.news-title {
+	background-color: #F1EFDA;
+}
+.bar {
+	/*FILTER:progid:DXImageTransform.Microsoft.Gradient(gradientType=1,startColorStr=#948B39,endColorStr=#E3DFB6);*/
+	background-color: #B9AE47;
+}
+.bar-title {
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.table-bar-over {
+	background-color: #F7F6EB;
+}
+.table-bar-out {
+	background-color: #FFFFFF;
+}
+.main-data {
+	color: #B9AE47;
+}
+.main-text {
+	color: #4D4D4D;
+}
+.main-title {
+	color: #706A2B;
+}
+.main-more {
+	font-weight: bold;
+	color: #FFFFFF;
+	position: relative;
+	top: 2px;
+	left: 78px;
+}
+.font-size {
+	color: #333333;
+	padding: 3px;
+}
+.font-size-over {
+	color: #FFFFFF;
+	background-color: #C7BE6C;
+	text-decoration: none;
+	padding: 3px;
+}
+.inputs {
+	BORDER-RIGHT: #808080 1px solid;
+	BORDER-TOP: #808080 1px solid;
+	BORDER-LEFT: #808080 1px solid;
+	BORDER-BOTTOM: #808080 1px solid;
+	COLOR: #333333;
+	font-size: 12px;
+}
+.inputs-manage {
+	BORDER-RIGHT: #808080 1px solid;
+	BORDER-TOP: #808080 1px solid;
+	BORDER-LEFT: #808080 1px solid;
+	BORDER-BOTTOM: #808080 1px solid;
+	COLOR: #FF0000;
+	font-size: 12px;
+}
+/*
+.artile-taile-header {
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#FFFFFF,endColorStr=#F7F6EB); 
+}
+.artile-taile-footer {
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#F7F6EB,endColorStr=#FFFFFF); 
+}
+
+*/
+.forums-menus {
+	background-color: #FFFFFF;
+}
+.forums-menus-on {
+	background-color: #D5CF91;
+}
+.forums-msnus-text {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.forums-msnus-desc {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.calendar-date {
+	font-weight: bold;
+	color: #706A2B;
+}
+.calendar-date-w {
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.calendar-date-h {
+	font-weight: bold;
+	color: #E51717;
+}
+.calendar-h {
+	color: #E51717;
+}
+.calendar-w {
+	color: #FFFFFF;
+}
+.block-top-city {
+	background-image: url(http://g.udn.com/community/img/common_black/block_top.gif);
+	background-repeat: no-repeat;
+}
+.block-top-user {
+	background-image: url(http://g.udn.com/community/img/user_black/block_top.gif);
+	background-repeat: no-repeat;
+}
+.manage {
+	color: #FF0000;
+	text-decoration: underline;
+}
+.chapter {
+	width: 100%;
+	border: 1px solid #E3DFB6;
+	background-color: #F7F6EB;
+}
+.desc {
+	width: 100%;
+	border: 1px solid #666666;
+	background-color: #FFFFEC;
+}
+.img-border {
+	border: 1px solid #000000;
+}
+.time {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: none;
+	color: #808080;
+	table-layout:fixed;
+}
+.header-top {
+	background-color: #948B39;
+}
+.msg-bar {
+	background-color: #990808;
+	border: none;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.ch {
+	background-color: #FBFAF5;
+	border: 1px solid #E3DFB6;
+}
+
+
+a.city-text1:hover {
+	color: #990808;
+}
+a.city-text2:hover {
+	color: #948B39;
+}
+a.panel-text:hover {
+	color: #706A2B;
+}
+a.main-text:hover {
+	color: #333333;
+}
+a.main-title:hover {
+	color: #990808;
+}
+
+a.nav:link, a.nav:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.city-text2:link, a.city-text2:visited {
+	color: #B9AE47;
+	text-decoration: none;
+}
+a.city-text1:link, a.city-text1:visited {
+	color: #999999;
+	text-decoration: none;
+}
+a.panel-text:link, a.panel-text:visited {
+	color: #948B39;
+	text-decoration: none;
+}
+a.main-text:link, a.main-text:visited {
+	color: #808080;
+	text-decoration: none;
+}
+a.main-title:link, a.main-title:visited {
+	text-decoration: none;
+}
+a.main-more:link, a.main-more:visited  {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.font-size:link, a.font-size:visited  {
+	color: #333333;
+	text-decoration: none;
+	padding: 3px;
+}
+a.forums-msnus-text:link, a.forums-msnus-text:visited  {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.main-topic:link, a.main-topic:visited  {
+	color: #990808;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.panel-topic:link, a.panel-topic:visited  {
+	/*
+FILTER:progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#FBFAF4,endColorStr=#FFFFFF);*/
+	text-decoration: none;
+	font-weight: bold;
+	color: #706A2B;
+}
+a.font-size:hover {
+	color: #FFFFFF;
+	background-color: #C7BE6C;
+	padding: 3px;
+	text-decoration: none;
+}
+a.manage:link, a.manage:hover {
+	color: #FF0000;
+	text-decoration: underline;
+}
+a.forums-msnus-desc:link, a.forums-msnus-desc:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.city-name:link, a.city-name:visited {
+	text-decoration: none;
+}
+
+
+
+a.nav:hover, a.city-text1:hover, a.city-text2:hover, a.panel-text:hover, a.main-text:hover, a.main-title:hover, a.main-more:hover, a.font-size-over:hover, a.forums-msnus-text:hover, a.main-topic:hover, a.panel-topic:hover, a.manage:hover, a.forums-msnus-desc:hover, a.city-name:hover {
+	position: relative;
+	top: 1px;
+	bottom: 1px;
+}
+
+/* 200605 網誌改版新增樣式 */
+
+
+/*
+----------山頭區塊--------------
+*/
+#header {
+	width: auto !important; /* 寬度 */
+	position: relative !important;
+	visibility: visible !important;
+}
+
+/*
+----------城邦共用導覽列左--------------
+*/
+#header_common_left {
+	background: url(http://g.udn.com/community/img/common_khaki/header_01.gif) no-repeat left top;
+}
+
+/*
+----------城邦共用導覽列主體--------------
+*/
+#header_common_main {
+	visibility: visible !important;
+}
+
+/*
+----------城邦共用導覽列主體背景--------------
+*/
+#header_common_main_bg {
+	background: url(http://g.udn.com/community/img/common_khaki/header_02.gif) repeat-x left top;
+}
+
+/*
+----------城邦共用導覽列分隔線--------------
+*/
+#header_common_line {
+	position: relative; /* 相對定位(以"山頭區塊"左上角為基準點) */
+	height: 30px; /* 高度 */
+	vertical-align: middle; /* 垂直對齊 */
+	background: url(http://g.udn.com/community/img/common_khaki/header_03.gif) no-repeat left top;
+}
+
+/*
+----------城邦共用導覽列右-------------- 
+*/
+#header_common_right {
+	background: url(http://g.udn.com/community/img/common_khaki/header_02.gif) no-repeat left top;
+}
+
+
+/*
+----------container layout--------------
+*/
+#container {
+	width: 770px !important;
+	visibility: visible !important;
+} 
+
+#main {
+	height: auto !important;
+	padding: 0px !important;
+	visibility: visible !important;
+} 
+
+#ingredients {
+	clear:both;
+}
+
+
+/*
+/*
+--------------直式導覽列-------------
+如需更改位置與寬度應與內容區配合
+*/
+#sidebar {
+	width: 200px !important; /* 寬度 */
+	text-align: center; /* 內容對齊 */
+	visibility: visible !important;
+}
+
+
+/*
+-----------------內容區---------------------
+如需更改位置與寬度應與直式導覽列配合
+*/
+#content {
+	width: 570px !important; /* 寬度 */
+	text-align: center; /* 內容對齊 */
+	visibility: visible !important;
+	clear: right !important;
+}
+
+
+/*
+-----------------相簿區---------------------
+相簿縮圖列背景及樣式
+*/
+.photo_guide {
+	COLOR: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a.photo_guide  {
+	POSITION: relative;
+	border: 2px solid #FFF;
+	display: block;
+	
+}
+a.photo_guide:hover {
+	left: 1px;
+	border: 2px solid #4D4D4D;
+	bottom: 5px;
+
+}
+.photo_guide1 {
+	COLOR: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a.photo_guide1  {
+	POSITION: relative;	
+	display: block;
+	bottom: 5px;
+	left: 1px;
+	border: 2px solid #4D4D4D;
+	
+}
+a.photo_guide1:hover {
+	bottom: 5px;
+	left: 1px;
+	border: 2px solid #4D4D4D;
+
+}
+.photo_tablebg_1 {
+	BACKGROUND-POSITION: left top;
+	BACKGROUND-IMAGE: url(http://g.udn.com/community/img/photo_all_2007/phototable_1.gif);
+	WIDTH: 730px;
+	BACKGROUND-REPEAT: no-repeat;
+	HEIGHT: 7px;
+}
+.photo_tablebg_2 {
+	BACKGROUND-POSITION: left top;
+	BACKGROUND-IMAGE: url(http://g.udn.com/community/img/photo_all_2007/phototable_2.gif);
+	WIDTH: 730px;
+	BACKGROUND-REPEAT: repeat-y;
+	text-align: center;
+}
+.photo_tablebg_3 {
+	BACKGROUND-POSITION: left top; BACKGROUND-IMAGE: url(http://g.udn.com/community/img/photo_all_2007/phototable_3.gif); WIDTH: 730px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 7px
+}
+
+/*
+----------------footer----------------------
+*/ 
+#footer {
+border-top:2px solid #D5CF91;
+clear:both;
+position:relative;
+top:30px;
+width:770px;
+height: 55px;
+font-size: 12px;
+}
+
+#copyright , #go_top a , #footer_link a {
+color:#706A2B;
+}
+
+#footer a {
+text-decoration:none;
+}
+
+#footer a:hover {
+text-decoration:underline;
+}
+
+#copyright {
+position:absolute;
+right:10px;
+top:5px;
+}
+
+#footer_info {
+position:absolute;
+left:10px;
+top:-23px;
+color: #999999;
+font-size: 11px;
+}
+
+#footer_link {
+position:absolute;
+left:10px;
+top:5px;
+}
+
+#go_top {
+position:absolute;
+right:10px;
+top:-25px;
+}
+
+
+/*
+----------------頁腳連結----------------
+*/
+#footer a {
+	color: #666666;
+}
+
+/*
+----------------2008新導覽選單----------------
+*/
+#top_bg {
+	position: absolute!important;
+	width: 100% !important;
+	visibility: visible !important;
+	filter: alpha(opacity=40);
+	-moz-opacity: 0.4;
+	opacity: 0.4;
+	height: 26px;
+	top: 0px;
+	left: 0px;
+}
+
+#container {
+ position: relative !important;
+ z-index: 1;
+}
+ 
+#top {
+ position: absolute !important;
+ z-index: 9999 !important;
+ width:770px;
+}
+
+#top_bar {
+  position: relative! important;
+  visibility: visible! important; 
+  padding: 4px 10px 0px 0px;
+  text-align: right;
+  margin: auto;
+  z-index: 9999;
+  display: inline;
+  float: right;
+}
+
+#top_bar table {
+	font: 12px/160% Verdana, Arial, Helvetica, sans-serif;
+}
+
+#ad_link {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 400px;
+	margin-right: 15px;
+}
+
+#common_sub table {
+	font:13px/160% Verdana, Arial, Helvetica, sans-serif;
+}
+
+#common_sub {
+	position:absolute;
+	border:1px solid #000000;
+	right:0;
+	top:25px;
+}
+
+#common_sub a {
+	display:block;
+	padding:3px 10px 0;
+	text-align:center;
+	white-space:nowrap;
+}
+
+#top_bar a:hover {
+	text-decoration: underline;
+}
+
+#top_bar a , #common_sub a:hover {
+	text-decoration: none;
+}
+
+/* 蹦現區塊：表頭 , 文字 */
+#common_sub th a , #common_sub a:hover {
+	color:#000000;
+	background:#E5E5E5;
+}
+
+/* 蹦現區塊：連結文字顏色 */
+#common_sub a {
+	color:#666666;
+	text-decoration: none;
+}
+
+/* 蹦現區塊：底色 */
+#common_sub {
+	background:#FFFFFF;
+}
+
+#common a {
+	color:#666666;	
+	text-decoration: none;
+	font-size: 13px;
+}
+
+/*
+----------------2008管理中心左側選單----------------
+*/
+.left_table2_1 {
+	background-image: url(http://g.udn.com/community/img/common_all_2007/left_tablebg4.gif);
+	background-repeat: no-repeat;
+	height: 6px;
+	width: 152px;
+}
+.left_table2_2 {
+	background-image: url(http://g.udn.com/community/img/common_all_2007/left_tablebg5.gif);
+	background-repeat: repeat-y;
+	width: 152px;
+}
+.left_table2_4 {
+	background-image: url(http://g.udn.com/community/img/common_all_2007/left_tablebg7.gif);
+	background-repeat: no-repeat;
+	width: 152px;
+	height: 7px;
+}
+.left_table2_3 {
+	background-image: url(http://g.udn.com/community/img/common_all_2007/left_tablebg6.gif);
+	background-repeat: no-repeat;
+	height: 25px;
+	width: 152px;
+}
+.t12 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.t12 a {
+	COLOR:  #414141;
+	text-decoration: none;
+}
+.t12 a:visited {
+	COLOR:  #414141;
+}
+.t12 a:hover {
+	COLOR:  #FF9900;
+}
+.t15 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #414141;
+}
+
+
+/*
+----------------2009 TAG----------------
+*/
+.cloud_16 {
+	FONT-SIZE: 16px;
+	line-height: 23px;
+}
+A.cloud_16:hover {
+	COLOR: #948B39;
+	text-decoration: underline;
+}
+A.cloud_16:link {
+	COLOR: #948B39;
+	text-decoration: none;
+}
+A.cloud_16:visited {
+	COLOR: #948B39;
+	text-decoration: none;
+}
+.cloud_20 {
+	FONT-SIZE: 20px;
+	line-height: 28px;
+	font-weight: bold;
+}
+A.cloud_20:hover {
+	COLOR: #948B39;
+	text-decoration: underline;
+}
+A.cloud_20:link {
+	COLOR: #948B39;
+	text-decoration: none;
+}
+A.cloud_20:visited {
+	COLOR: #948B39;
+	text-decoration: none;
+}
+.cloud_13 {
+	FONT-SIZE: 13px;
+	line-height: 23px;
+}
+A.cloud_13:hover {
+	COLOR: #948B39;
+	text-decoration: underline;
+}
+A.cloud_13:link {
+	COLOR: #948B39;
+	text-decoration: none;
+}
+A.cloud_13:visited {
+	COLOR: #948B39;
+	text-decoration: none;
+}
+.cloud_11 {
+	FONT-SIZE: 11px;
+	line-height: 23px;
+}
+A.cloud_11:hover {
+	COLOR: #948B39;
+	text-decoration: underline;
+}
+A.cloud_11:link {
+	COLOR: #948B39;
+	text-decoration: none;
+}
+A.cloud_11:visited {
+	COLOR: #948B39;
+	text-decoration: none;
+}
+
+.cloud_12 {
+	FONT-SIZE: 12px;
+	line-height: 23px;
+}
+A.cloud_12:hover {
+	COLOR: #948B39;
+	text-decoration: underline;
+}
+A.cloud_12:link {
+COLOR: #948B39;
+	text-decoration: none;
+}
+A.cloud_12:visited {
+	COLOR: #948B39;
+	text-decoration: none;
+}
+
+/*
+----------------2009相簿map----------------
+*/
+.photo_album a {
+	position:relative;
+	display:block;
+	width:120px;
+	height:120px;
+	margin: auto;
+}
+
+.photo_picture A {
+ WIDTH: 120px;
+ HEIGHT: 120px
+ position:relative;
+ overflow: hidden;
+}
+
+#map_photo {
+	position:absolute;
+	background:transparent url(/community/img/common_all/map_photo.gif) no-repeat scroll right bottom;
+	width:16px;
+	height:18px;
+	right:2px;
+	bottom:2px;
+}
+
+#google_map {
+	position:relative;
+	display:block;
+	width:120px;
+	height:120px;
+	margin: auto;
+}
+.map_point {
+	position:absolute;
+	background:transparent url(/community/img/common_all/map_point.gif) no-repeat scroll left top;
+	width:16px;
+	height:18px;
+}
+
+.up_img {
+	background: url(http://g.udn.com.tw/community/img/ugc_2011/icons.png) no-repeat 4px -1105px;
+	padding: 7px 0px 0px 24px;
+	color: #666;
+	text-decoration: none;
+}
+.up_img:hover {
+	color: #333;
+	background: url(http://g.udn.com.tw/community/img/ugc_2011/icons.png) no-repeat 4px -1135px;
+	text-decoration: none;
+}
